@@ -1,0 +1,127 @@
+
+
+/* ==================================
+   ROOT
+================================== */
+
+:root {
+    --bg: #2B303A;
+    --bg-light: #2b303a;
+
+    --accent: #e99ab3;
+    --accent-hover: #f2b6c8;
+
+    --white: #ffffff;
+    --text: #e5e5e5;
+    --text-dark: #333333;
+
+    --max-width: 1440px;
+
+    --border-radius: 12px;
+
+    --transition: all 0.3s ease;
+}
+
+/* ==================================
+   RESET
+================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ==================================
+   GLOBAL
+================================== */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: var(--white);
+    color: var(--text-dark);
+    overflow-x: hidden;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    font: inherit;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+/* ==================================
+   CONTAINER
+================================== */
+
+.container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+/* ==================================
+   TYPOGRAPHY
+================================== */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+}
+
+section {
+    padding: 96px 0;
+}
+
+/* ==================================
+   TABLET
+================================== */
+
+@media (max-width: 992px) {
+
+    .container {
+        padding: 0 24px;
+    }
+
+    section {
+        padding: 80px 0;
+    }
+
+}
+
+/* ==================================
+   SMARTPHONE
+================================== */
+
+@media (max-width: 768px) {
+
+    .container {
+        padding: 0 20px;
+    }
+
+    section {
+        padding: 64px 0;
+    }
+
+}

@@ -1,0 +1,126 @@
+/* ==================================
+   HEADER
+================================== */
+
+header {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+   background-color: #2B303A;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, .12);
+}
+
+.header_content {
+    max-width: 1440px;
+    height: 90px;
+
+    margin: 0 auto;
+    padding: 0 48px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ---------- Logo ---------- */
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 78px;
+    width: auto;
+    display: block;
+
+    border-radius: 10px;
+}
+
+/* ---------- Navigation ---------- */
+
+.desktop_nav {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.desktop_nav a {
+    position: relative;
+
+    color: var(--white);
+    text-decoration: none;
+
+    font-size: 18px;
+    font-weight: 500;
+
+    transition: .3s;
+}
+
+.desktop_nav a::after {
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+    bottom: -8px;
+
+    width: 0;
+    height: 2px;
+
+    background: var(--accent);
+
+    transition: .3s;
+}
+
+.desktop_nav a:hover {
+    color: var(--accent);
+}
+
+.desktop_nav a:hover::after {
+    width: 100%;
+}
+
+/* ---------- Button ---------- */
+
+.appointment_btn {
+
+    padding: 14px 32px;
+
+    border: none;
+    border-radius: 999px;
+
+    background: var(--accent);
+    color: white;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: .3s;
+}
+
+.appointment_btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 18px rgba(233,154,179,.35);
+}
+
+/* ---------- Burger ---------- */
+
+.burger_btn {
+
+    display: none;
+
+    background: transparent;
+    border: none;
+
+    color: white;
+
+    font-size: 34px;
+
+    cursor: pointer;
+}
