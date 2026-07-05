@@ -1,28 +1,6 @@
-
-
-/* ==================================
-   ROOT
-================================== */
-
-:root{
-
---primary:#b76e79;
---primary-dark:#a14d63;
-
---background:#111111;
---background-light:#1c1c1c;
-
---white:#ffffff;
-
---text:#efefef;
-
---accent:#f3d7df;
-
-}
-
-/* ==================================
-   RESET
-================================== */
+/* ===========================
+   CSS RESET
+=========================== */
 
 * {
     margin: 0;
@@ -30,25 +8,57 @@
     box-sizing: border-box;
 }
 
-/* ==================================
+/* ===========================
+   ROOT
+=========================== */
+
+:root {
+
+    /* Fonts */
+
+    --font-logo: "Great Vibes", cursive;
+    --font-heading: "Playfair Display", serif;
+    --font-text: "Poppins", sans-serif;
+
+    /* Colors */
+
+    --primary: #B76E79;
+    --primary-dark: #A14D63;
+
+    --background: #111111;
+    --background-light: #1C1C1C;
+
+    --white: #FFFFFF;
+    --text: #EFEFEF;
+
+    --border: rgba(255,255,255,0.12);
+
+    /* Layout */
+
+    --max-width: 1440px;
+
+    /* Animation */
+
+    --transition: 0.3s ease;
+}
+
+/* ===========================
    GLOBAL
-================================== */
+=========================== */
 
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    font-family: "Poppins", sans-serif;
-    background-color: var(--white);
-    color: var(--text-dark);
-    overflow-x: hidden;
+    background-color: var(--background);
+    color: var(--text);
+    font-family: var(--font-text);
 }
 
 img {
     display: block;
-    max-width: 100%;
-    height: auto;
+    width: 100%;
 }
 
 a {
@@ -56,70 +66,24 @@ a {
     color: inherit;
 }
 
-button {
-    font: inherit;
-    cursor: pointer;
-}
-
 ul {
     list-style: none;
 }
 
-/* ==================================
-   CONTAINER
-================================== */
-
-.container {
-    max-width: var(--max-width);
-    margin: 0 auto;
-    padding: 0 32px;
-}
-
-/* ==================================
-   TYPOGRAPHY
-================================== */
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-weight: 600;
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-family: inherit;
 }
 
 section {
-    padding: 96px 0;
+    width: 100%;
 }
 
-/* ==================================
-   TABLET
-================================== */
-
-@media (max-width: 992px) {
-
-    .container {
-        padding: 0 24px;
-    }
-
-    section {
-        padding: 80px 0;
-    }
-
-}
-
-/* ==================================
-   SMARTPHONE
-================================== */
-
-@media (max-width: 768px) {
-
-    .container {
-        padding: 0 20px;
-    }
-
-    section {
-        padding: 64px 0;
-    }
-
+.container {
+    width: 100%;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding-inline: 32px;
 }

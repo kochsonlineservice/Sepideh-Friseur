@@ -1,0 +1,358 @@
+/* ===========================
+   HERO
+=========================== */
+
+#hero {
+    min-height: 100vh;
+
+    background-image:
+        linear-gradient(rgba(10,10,10,.65), rgba(10,10,10,.65)),
+        url("../assets/images/hero-image.jpg");
+
+    background-size: cover;
+    background-position: 60% center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+
+    padding-top: 120px;
+}
+
+.hero_overlay{
+    width:100%;
+    max-width:700px;
+
+      text-align: center;
+
+    padding-top:80px;
+}
+   
+.hero_overlay h1 {
+
+    font-family: var(--font-logo);
+    font-size: 6rem;
+    color: var(--primary);
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 12px;
+
+}
+
+.hero_overlay h2 {
+
+    font-family: var(--font-heading);
+    font-size: 2.2rem;
+    font-weight: 500;
+    margin-bottom: 32px;
+
+}
+
+.hero_overlay p {
+
+    font-size: 1.2rem;
+    line-height: 1.8;
+
+    max-width: 520px;
+
+    margin: 0 auto 48px;
+
+}
+
+.hero_buttons {
+
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+
+}
+
+.appointment_btn,
+.hero_btn_secondary {
+
+    min-width: 220px;
+
+}
+
+#hero .container{
+
+    display:flex;
+
+    justify-content:center;
+
+}
+
+/* ===========================
+   About
+=========================== */
+
+#about{
+    padding:120px 0;
+    background:var(--background);
+}
+
+.about_image img {
+
+    width: 100%;
+    max-width: 560px;
+    height: auto;
+
+    object-fit: cover;
+    object-position: center;
+
+    border: 2px solid rgba(183,110,121,.25);
+    border-radius: 24px;
+
+    box-shadow: 0 20px 40px rgba(0,0,0,.35);
+
+}
+
+.about_image img{
+
+    transition:.4s;
+
+}
+
+.about_image img:hover{
+
+    transform: scale(1.02);
+
+}
+
+
+.about_content{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    gap:80px;
+
+}
+
+.section_subtitle{
+
+    color:var(--primary);
+
+    font-size:18px;
+
+    text-transform:uppercase;
+
+    letter-spacing:3px;
+
+    font-weight:600;
+
+}
+
+.about_text h2{
+
+    margin-bottom:18px;
+
+}
+
+.about_text h2::after{
+
+    content:"";
+
+    display:block;
+
+    width:90px;
+
+    height:3px;
+
+    background:var(--primary);
+
+    margin-top:20px;
+
+    border-radius:20px;
+
+}
+
+.about_features{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:16px;
+
+    margin-top:40px;
+
+}
+
+
+/* ===========================
+   Leistungen
+=========================== */
+#services{
+
+    padding:120px 0;
+
+    background:var(--background-light);
+
+}
+
+#services h2{
+
+    font-family:var(--font-heading);
+
+    font-size:3rem;
+
+    margin-top:12px;
+
+    margin-bottom:80px;
+
+}
+
+.service_card h3{
+
+    font-size:1.5rem;
+
+    margin-bottom:16px;
+
+}
+
+.services_grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:32px;
+
+}
+
+.service_card{
+
+    background:#181818;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:24px;
+
+    padding:40px 32px;
+
+    transition:.35s;
+
+}
+
+.service_card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:var(--primary);
+
+    box-shadow:0 20px 40px rgba(0,0,0,.35);
+
+}
+
+.service_card p{
+
+    line-height:1.8;
+
+    color:#cfcfcf;
+
+}
+
+/* ===========================
+
+Galerie
+=========================== */
+
+#gallery{
+
+    padding:120px 0;
+
+    background:var(--background);
+
+}
+
+#gallery h2{
+
+    font-family:var(--font-heading);
+
+    font-size:3rem;
+
+    margin:12px 0 24px;
+
+}
+
+.gallery_intro{
+
+    max-width:700px;
+
+    font-size:18px;
+
+    line-height:1.8;
+
+    color:#cfcfcf;
+
+    margin-bottom:60px;
+
+}
+
+.gallery_grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:32px;
+
+}
+
+.gallery_card{
+
+    height:260px;
+
+    background:#181818;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:24px;
+
+    transition:.35s;
+
+    overflow:hidden;
+
+}
+
+.gallery_placeholder{
+
+    height:100%;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:20px;
+
+    font-size:3rem;
+
+    color:var(--primary);
+
+}
+
+.gallery_placeholder span{
+
+    font-size:18px;
+
+    color:white;
+
+}
+
+.gallery_card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:var(--primary);
+
+    box-shadow:0 20px 40px rgba(0,0,0,.35);
+
+}
