@@ -2,6 +2,8 @@
    HERO
 =========================== */
 
+
+
 #hero {
     min-height: 100vh;
 
@@ -10,13 +12,13 @@
         url("../assets/images/hero-image.jpg");
 
     background-size: cover;
-    background-position: 60% center;
+   
     background-repeat: no-repeat;
 
     display: flex;
     align-items: center;
-
-    padding-top: 120px;
+    background-position: center -15%;
+    padding-top: 320px;
 }
 
 .hero_overlay{
@@ -25,7 +27,7 @@
 
       text-align: center;
 
-    padding-top:80px;
+    padding-top:180px;
 }
    
 .hero_overlay h1 {
@@ -354,5 +356,164 @@ Galerie
     border-color:var(--primary);
 
     box-shadow:0 20px 40px rgba(0,0,0,.35);
+
+}
+
+
+/* ===========================
+   Kontakt
+=========================== */
+
+#contact{
+    padding:120px 0;
+    background:var(--background);
+}
+
+.contact_content{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:flex-start;
+
+    gap:80px;
+
+    margin-top:80px;
+
+}
+
+.contact_info{
+
+    flex:1;
+
+}
+
+.contact_item{
+
+    margin-bottom:40px;
+
+}
+
+.contact_item h3{
+
+    margin-bottom:12px;
+
+    color:var(--primary);
+
+}
+
+.contact_item p{
+
+    line-height:1.8;
+
+}
+
+.contact_item a{
+
+    color:var(--text);
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+.contact_item a:hover{
+
+    color:var(--primary);
+
+}
+
+.contact_map{
+
+    flex:1;
+
+}
+
+.map_placeholder{
+
+    width:100%;
+
+    height:420px;
+
+    border-radius:24px;
+
+    border:2px dashed rgba(183,110,121,.35);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:var(--primary);
+
+    font-size:1.3rem;
+
+    background:#181818;
+
+}
+
+.contact_map iframe{
+
+    width:100%;
+
+    height:420px;
+
+    border:none;
+
+    border-radius:24px;
+
+    box-shadow:0 20px 40px rgba(0,0,0,.35);
+
+}
+
+
+
+
+/* ===========================
+   Section Divider
+=========================== */
+
+.section_divider{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:28px;
+
+    margin:40px 0;
+
+}
+
+.divider_line{
+
+    width:520px;
+
+    height:2px;
+
+    background:rgba(183,110,121,.25);
+
+}
+
+.divider_icon{
+
+    width:44px;
+
+    height:44px;
+
+    transition:all .35s ease;
+
+}
+
+.divider_icon:hover{
+
+    transform:scale(1.15) rotate(8deg);
+
+    filter:drop-shadow(0 0 10px rgba(247,215,109,.6));
 
 }

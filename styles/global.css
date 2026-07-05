@@ -87,3 +87,78 @@ section {
     margin: 0 auto;
     padding-inline: 32px;
 }
+
+/* ===========================
+   Impressum / Datenschutz
+=========================== */
+
+.legal{
+
+    padding:180px 0 120px;
+
+    background:var(--background);
+
+    min-height:100vh;
+
+}
+
+.legal h1{
+
+    margin:16px 0 48px;
+
+}
+
+.legal h2{
+
+    margin-top:40px;
+    margin-bottom:16px;
+
+    font-size:1.5rem;
+
+}
+
+.legal p{
+
+    line-height:1.8;
+
+    color:#d6d6d6;
+
+    max-width:800px;
+
+}
+
+.legal a{
+
+    color:var(--primary);
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+.legal a:hover{
+
+    color:#ffffff;
+
+}
+
+.back_btn{
+
+    display:inline-block;
+
+    margin-bottom:50px;
+
+    color:var(--primary);
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+.back_btn:hover{
+
+    color:#fff;
+
+}

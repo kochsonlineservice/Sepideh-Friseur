@@ -1,0 +1,373 @@
+/* ===========================
+   TABLET
+=========================== */
+
+@media (max-width: 992px) {
+
+    /* ===========================
+   HEADER
+=========================== */
+
+.header_content{
+
+    height:80px;
+
+}
+
+.logo img{
+
+    height:40px;
+
+}
+
+.desktop_nav{
+
+    gap:15px;
+
+}
+
+.desktop_nav a{
+
+    font-size:16px;
+
+     white-space:nowrap;
+
+
+}
+
+.appointment_btn{
+
+     padding:12px 20px;
+
+    font-size:15px;
+
+}
+
+.instagram_link{
+
+    width:42px;
+
+    height:42px;
+
+}
+
+.instagram_link img{
+
+    width:22px;
+
+    height:22px;
+
+}
+
+   /* ===========================
+   HERO
+=========================== */
+
+#hero{
+
+    min-height:90vh;
+
+    background-position:center;
+
+    padding-top:140px;
+
+}
+
+.hero_overlay{
+
+    max-width:600px;
+
+    padding-top:40px;
+
+}
+
+.hero_overlay h1{
+
+    font-size:5rem;
+
+}
+
+.hero_overlay h2{
+
+    font-size:2rem;
+
+}
+
+.hero_overlay p{
+
+    font-size:1.1rem;
+
+    max-width:500px;
+
+}
+
+.hero_buttons{
+
+    min-width:180px;
+
+    padding:14px 20px;
+
+    font-size:16px;
+
+
+}
+
+.hero_buttons a{
+
+    min-width:200px;
+
+}
+
+.appointment_btn,
+.hero_btn_secondary{
+
+    min-width:180px;
+
+    padding:14px 20px;
+
+    font-size:16px;
+
+}
+
+   /* ===========================
+   ABOUT
+=========================== */
+
+.about_content{
+
+    flex-direction: column;
+
+    gap:50px;
+
+    text-align:center;
+
+}
+
+.about_text{
+
+    max-width:700px;
+
+}
+
+.about_text h2::after{
+
+    margin:20px auto 0;
+
+}
+
+.about_features{
+
+    align-items:center;
+
+}
+
+.about_image img{
+
+    max-width:500px;
+
+    width:100%;
+
+}
+
+    /* ===========================
+   ABOUT
+=========================== */
+
+.about_content{
+
+    flex-direction: column;
+
+    gap:50px;
+
+    text-align:center;
+
+}
+
+.about_text{
+
+    max-width:700px;
+
+}
+
+.about_text h2::after{
+
+    margin:20px auto 0;
+
+}
+
+.about_features{
+
+    align-items:center;
+
+}
+
+.about_image img{
+
+    max-width:500px;
+
+    width:100%;
+
+}
+
+/* ===========================
+   SERVICES
+=========================== */
+
+#services h2{
+
+    font-size:2.5rem;
+
+    margin-bottom:60px;
+
+}
+
+.services_grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:24px;
+
+}
+
+.service_card{
+
+    padding:32px 24px;
+
+}
+
+.service_card h3{
+
+    font-size:1.4rem;
+
+}
+
+.service_card p{
+
+    font-size:1rem;
+
+}
+
+/* ===========================
+   GALLERY
+=========================== */
+
+.gallery_grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:24px;
+
+}
+
+.gallery_item{
+
+    aspect-ratio:1/1;
+
+}
+
+#gallery h2{
+
+    font-size:2.5rem;
+
+    margin-bottom:20px;
+
+}
+
+#gallery p{
+
+    max-width:650px;
+
+}
+
+   /* ===========================
+   CONTACT
+=========================== */
+
+.contact_content{
+
+    flex-direction:column;
+
+    gap:50px;
+
+}
+
+.contact_info{
+
+    width:100%;
+
+    text-align:center;
+
+}
+
+.contact_map{
+
+    width:100%;
+
+}
+
+.contact_map iframe{
+
+    width:100%;
+
+    height:400px;
+
+    border-radius:24px;
+
+}
+
+   /* ===========================
+   FOOTER
+=========================== */
+
+.footer_content{
+
+    flex-direction:column;
+
+    align-items:center;
+
+    text-align:center;
+
+    gap:30px;
+
+}
+
+.footer_links{
+
+    justify-content:center;
+
+    gap:24px;
+
+}
+
+.footer_social{
+
+    justify-content:center;
+
+}
+
+}
+
+
+/* ===========================
+   MOBILE
+=========================== */
+
+@media (max-width: 768px) {
+
+    /* Header */
+
+    /* Hero */
+
+    /* About */
+
+    /* Services */
+
+    /* Gallery */
+
+    /* Contact */
+
+    /* Footer */
+
+}

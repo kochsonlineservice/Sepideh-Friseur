@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 64 64"
+     width="64"
+     height="64">
+
+    <defs>
+
+        <linearGradient id="gold"
+                        x1="0%"
+                        y1="0%"
+                        x2="100%"
+                        y2="100%">
+
+            <stop offset="0%" stop-color="#FFF4C7"/>
+            <stop offset="25%" stop-color="#F7D76D"/>
+            <stop offset="50%" stop-color="#D4AF37"/>
+            <stop offset="75%" stop-color="#F4D46A"/>
+            <stop offset="100%" stop-color="#FFF4C7"/>
+
+        </linearGradient>
+
+    </defs>
+
+    <g
+        fill="none"
+        stroke="url(#gold)"
+        stroke-width="2.4"
+        stroke-linejoin="round"
+        stroke-linecap="round">
+
+        <!-- Außenform -->
+        <path d="M18 20 L28 10 L36 10 L46 20 L32 54 Z"/>
+
+        <!-- obere Facetten -->
+        <path d="M18 20 H46"/>
+        <path d="M28 10 L32 20"/>
+        <path d="M36 10 L32 20"/>
+
+        <!-- untere Facetten -->
+        <path d="M18 20 L32 54"/>
+        <path d="M46 20 L32 54"/>
+        <path d="M32 20 L32 54"/>
+
+    </g>
+
+</svg>
