@@ -171,3 +171,69 @@ header{
     box-shadow:0 0 18px rgba(183,110,121,.35);
 
 }
+
+/* ===========================
+   MOBILE MENU
+=========================== */
+
+.mobile_menu{
+
+    position: fixed;
+
+    top: 70px;
+
+    right: -100%;
+
+    width: 280px;
+
+    height: calc(100vh - 70px);
+
+    background: var(--background);
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 24px;
+
+    padding: 40px 30px;
+
+    transition: right .35s ease;
+
+    z-index: 999;
+
+}
+
+.mobile_menu a{
+
+    color: var(--white);
+
+    text-decoration: none;
+
+    font-size: 18px;
+
+    font-weight: 500;
+
+    transition: var(--transition);
+
+}
+
+.mobile_menu a:hover{
+
+    color: var(--primary);
+
+}
+
+.mobile_menu.active{
+
+    right: 0;
+
+}
+
+.mobile_menu a:hover{
+
+    color:var(--primary);
+
+    transform:translateX(8px);
+
+}
