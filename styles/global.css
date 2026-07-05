@@ -4,22 +4,20 @@
    ROOT
 ================================== */
 
-:root {
-    --bg: #2B303A;
-    --bg-light: #2b303a;
+:root{
 
-    --accent: #e99ab3;
-    --accent-hover: #f2b6c8;
+--primary:#b76e79;
+--primary-dark:#a14d63;
 
-    --white: #ffffff;
-    --text: #e5e5e5;
-    --text-dark: #333333;
+--background:#111111;
+--background-light:#1c1c1c;
 
-    --max-width: 1440px;
+--white:#ffffff;
 
-    --border-radius: 12px;
+--text:#efefef;
 
-    --transition: all 0.3s ease;
+--accent:#f3d7df;
+
 }
 
 /* ==================================
