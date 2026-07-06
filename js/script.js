@@ -3,15 +3,17 @@ console.log("Script geladen");
 function toggleMenu() {
 
     const menu = document.getElementById("mobileMenu");
+    const overlay = document.getElementById("menuOverlay");
     const button = document.getElementById("burgerBtn");
 
     menu.classList.toggle("active");
+    overlay.classList.toggle("active");
 
-    if (menu.classList.contains("active")) {
+    if(menu.classList.contains("active")){
 
         button.innerHTML = "✕";
 
-    } else {
+    }else{
 
         button.innerHTML = "☰";
 
@@ -19,10 +21,15 @@ function toggleMenu() {
 
 }
 
-function closeMenu() {
+function closeMenu(){
 
-    document.getElementById("mobileMenu").classList.remove("active");
+    document.getElementById("mobileMenu")
+    .classList.remove("active");
 
-    document.getElementById("burgerBtn").innerHTML = "☰";
+    document.getElementById("menuOverlay")
+    .classList.remove("active");
+
+    document.getElementById("burgerBtn")
+    .innerHTML = "☰";
 
 }

@@ -12,7 +12,8 @@
     />
 
     <link rel="stylesheet" href="./styles/style.css" />
-  
+
+   <link rel="icon" type="image/png" href="./assets/icons/favicon.png">
   </head>
 
   <body>
@@ -30,7 +31,7 @@
           <a href="#contact">Kontakt</a>
         </nav>
 
-        <a href="tel:+497141123456" class="appointment_btn"> Termin buchen </a>
+        <a href="tel:+4915739210377" class="appointment_btn"> Termin buchen </a>
 
         <a
           href="https://www.instagram.com/sepideh_friseur/"
@@ -40,15 +41,14 @@
         >
           <img src="./assets/icons/insta-icon.png" alt="Instagram" />
         </a>
-       <button
-    id="burgerBtn"
-    class="burger_btn"
-    onclick="toggleMenu()"
-    aria-label="Menü öffnen">
-
-    ☰
-
-</button>
+        <button
+          id="burgerBtn"
+          class="burger_btn"
+          onclick="toggleMenu()"
+          aria-label="Menü öffnen"
+        >
+          ☰
+        </button>
       </div>
     </header>
 
@@ -60,11 +60,11 @@
       <a href="#hero" onclick="closeMenu()">Start</a>
       <a href="#about" onclick="closeMenu()">Über uns</a>
 
-<a href="#services" onclick="closeMenu()">Leistungen</a>
+      <a href="#services" onclick="closeMenu()">Leistungen</a>
 
-<a href="#gallery" onclick="closeMenu()">Galerie</a>
+      <a href="#gallery" onclick="closeMenu()">Galerie</a>
 
-<a href="#contact" onclick="closeMenu()">Kontakt</a>
+      <a href="#contact" onclick="closeMenu()">Kontakt</a>
 
       <a
         href="https://www.instagram.com/sepideh_friseur/"
@@ -76,6 +76,8 @@
 
       <a href="tel:+4915739210377"> Termin buchen </a>
     </nav>
+
+    <div id="menuOverlay" class="menu_overlay" onclick="closeMenu()"></div>
 
     <main>
       <section id="hero">
@@ -91,7 +93,7 @@
             </p>
 
             <div class="hero_buttons">
-              <a href="tel:+497141123456" class="appointment_btn">
+              <a href="tel:+4915739210377" class="appointment_btn">
                 Termin buchen
               </a>
 

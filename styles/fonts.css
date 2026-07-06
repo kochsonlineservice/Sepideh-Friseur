@@ -9,37 +9,7 @@
     font-style: normal;
 }
 
-/* ===========================
-   Playfair Display
-=========================== */
 
-@font-face {
-    font-family: "Playfair Display";
-    src: url("../assets/fonts/playfair-display/playfair-display-v40-latin-regular.woff2") format("woff2");
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Playfair Display";
-    src: url("../assets/fonts/playfair-display/playfair-display-v40-latin-500.woff2") format("woff2");
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Playfair Display";
-    src: url("../assets/fonts/playfair-display/playfair-display-v40-latin-600.woff2") format("woff2");
-    font-weight: 600;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Playfair Display";
-    src: url("../assets/fonts/playfair-display/playfair-display-v40-latin-700.woff2") format("woff2");
-    font-weight: 700;
-    font-style: normal;
-}
 
 /* ===========================
    Poppins
