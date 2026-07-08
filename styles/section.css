@@ -359,6 +359,62 @@ Galerie
 
 }
 
+/* ===========================
+   PORTFOLIO
+=========================== */
+
+#portfolio {
+    padding: 100px 0;
+    background: var(--bg);
+}
+
+#portfolio h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#portfolio h2::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 3px;
+    background: var(--accent);
+    margin: 20px auto 0;
+}
+
+#portfolio .section_subtitle {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 60px;
+    color: var(--text-light);
+    line-height: 1.7;
+}
+
+.portfolio_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.portfolio_card {
+    overflow: hidden;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.portfolio_card img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+.portfolio_card:hover img {
+    transform: scale(1.08);
+}
+
 
 /* ===========================
    Kontakt
@@ -516,4 +572,55 @@ Galerie
 
     filter:drop-shadow(0 0 10px rgba(247,215,109,.6));
 
+}
+
+
+/* ===========================
+   GOOGLE REVIEWS
+=========================== */
+
+#reviews {
+    padding: 100px 0;
+    background: var(--bg-light);
+}
+
+#reviews h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#reviews h2::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 3px;
+    background: var(--accent);
+    margin: 20px auto 0;
+}
+
+#reviews .section_subtitle {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 60px;
+    color: var(--text-light);
+}
+
+.reviews_wrapper{
+    display:flex;
+    gap:40px;
+    align-items:center;
+}
+
+.reviews_widget{
+    flex:2;
+}
+
+.reviews_image{
+    flex:1;
+}
+
+.reviews_image img{
+    width:100%;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.35);
 }

@@ -356,287 +356,172 @@
 
 @media (max-width: 768px) {
 
-   /* ===========================
-   HEADER
-=========================== */
-
-.header_content{
-
-    height:70px;
-
-}
-
-.logo img{
-
-    height:45px;
-
-}
-
-.desktop_nav{
-
-    display:none;
-
-}
-
-.appointment_btn{
-
-    .appointment_btn{
-
-    display:flex;
-
-    padding:10px 16px;
-
-    font-size:14px;
-
-    min-width:auto;
-
-}
-
-}
-
-.instagram_link{
-
-    display:none;
-
-}
-
-.burger_btn{
-
-    display:flex;
-
-    font-size:34px;
-
-    color:var(--white);
-
-}
-
-  /* ===========================
-   HERO
-=========================== */
-
-#hero{
-
-    min-height:100vh;
-
-    padding-top:100px;
-
-     background-position: left center;
-
-}
-
-.hero_overlay{
-
-    max-width:100%;
-
-    padding-top:20px;
-
-}
-
-.hero_overlay h1{
-
-    font-size:3.2rem;
-
-}
-
-.hero_overlay h2{
-
-    font-size:1.7rem;
-
-}
-
-.hero_overlay p{
-
-    font-size:1rem;
-
-    max-width:100%;
-
-}
-
-.hero_buttons{
-
-    flex-direction:column;
-
-    align-items:center;
-
-    gap:16px;
-
-}
-
-.hero_buttons a{
-
-    width:100%;
-
-    max-width:280px;
-
-}
-/* ===========================
-   ABOUT
-=========================== */
-
-#about{
-
-    padding:80px 0;
-
-}
-
-.about_content{
-
-    flex-direction:column;
-
-    gap:40px;
-
-    text-align:center;
-
-}
-
-.about_text{
-
-    max-width:100%;
-
-}
-
-.about_text h2{
-
-    font-size:2rem;
-
-}
-
-.about_text h2::after{
-
-    margin:20px auto 0;
-
-}
-
-.about_features{
-
-    align-items:center;
-
-    gap:12px;
-
-}
-
-.about_image img{
-
-    max-width:100%;
-
-}
-
-/* ===========================
-   SERVICES
-=========================== */
-
-#services{
-
-    padding:80px 0;
-
-}
-
-#services h2{
-
-    font-size:2rem;
-
-    margin-bottom:50px;
-
-}
-
-.services_grid{
-
-    grid-template-columns:1fr;
-
-    gap:20px;
-
-}
-
-.service_card{
-
-    padding:28px 22px;
-
-}
-
-  /* ===========================
-   GALLERY
-=========================== */
-
-#gallery{
-
-    padding:80px 0;
-
-}
-
-.gallery_grid{
-
-    grid-template-columns:1fr;
-
-    gap:20px;
-
-}
-
-.gallery_card{
-
-    height:220px;
-
-}
-
-  /* ===========================
-   CONTACT
-=========================== */
-
-#contact{
-
-    padding:80px 0;
-
-}
-
-.contact_content{
-
-    flex-direction:column;
-
-    gap:40px;
-
-}
-
-.contact_info{
-
-    text-align:center;
-
-}
-
-.contact_map iframe{
-
-    width:100%;
-
-    height:280px;
-
-}
-
-  /* ===========================
-   FOOTER
-=========================== */
-
-.footer_content{
-
-    flex-direction:column;
-
-    align-items:center;
-
-    gap:24px;
-
-    text-align:center;
-
-}
-
-.footer_links{
-
-    flex-direction:column;
-
-    gap:12px;
-
-}
-
-.footer_social{
-
-    justify-content:center;
-
-}
+    /* ===========================
+       HEADER
+    =========================== */
+
+    .header_content {
+        height: 70px;
+    }
+
+    .logo img {
+        height: 45px;
+    }
+
+    .desktop_nav {
+        display: none;
+    }
+
+    .appointment_btn {
+        display: flex;
+        padding: 10px 16px;
+        font-size: 14px;
+        min-width: auto;
+    }
+
+    .instagram_link {
+        display: none;
+    }
+
+    .burger_btn {
+        display: flex;
+        font-size: 34px;
+        color: var(--white);
+    }
+
+    /* ===========================
+       HERO
+    =========================== */
+
+    #hero {
+        min-height: 100vh;
+        padding-top: 100px;
+        background-position: left center;
+    }
+
+    .hero_overlay {
+        max-width: 100%;
+        padding-top: 20px;
+    }
+
+    .hero_overlay h1 {
+        font-size: 3.2rem;
+    }
+
+    .hero_overlay h2 {
+        font-size: 1.7rem;
+    }
+
+    .hero_overlay p {
+        font-size: 1rem;
+        max-width: 100%;
+    }
+
+    .hero_buttons {
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .hero_buttons a {
+        width: 100%;
+        max-width: 280px;
+    }
+
+    /* ===========================
+       ABOUT
+    =========================== */
+
+    #about {
+        padding: 80px 0;
+    }
+
+    .about_content {
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .about_text {
+        max-width: 100%;
+    }
+
+    .about_text h2 {
+        font-size: 2rem;
+    }
+
+    .about_text h2::after {
+        margin: 20px auto 0;
+    }
+
+    .about_features {
+        align-items: center;
+        gap: 12px;
+    }
+
+    .about_image img {
+        max-width: 100%;
+    }
+
+    /* ===========================
+       SERVICES
+    =========================== */
+
+    #services {
+        padding: 80px 0;
+    }
+
+    #services h2 {
+        font-size: 2rem;
+        margin-bottom: 50px;
+    }
+
+    .services_grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .service_card {
+        padding: 28px 22px;
+    }
+
+    /* ===========================
+       GALLERY
+    =========================== */
+
+    #gallery {
+        padding: 80px 0;
+    }
+
+    .gallery_grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .gallery_card {
+        height: 220px;
+    }
+
+    /* ===========================
+       CONTACT
+    =========================== */
+
+    #contact {
+        padding: 80px 0;
+    }
+
+    .contact_content {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .contact_info {
+        text-align: center;
+    }
+
+    .contact_map iframe {
+        width: 100%;
+        height: 280px;
+    }
 
 }
